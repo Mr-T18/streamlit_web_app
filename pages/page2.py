@@ -42,5 +42,5 @@ with st.form(key="profile_form"):
     if submit_btn:
         st.text(f"ようこそ！{name}さん！{address}に書籍を送りました！")
         st.text(f"年齢層：{age_category}")
-        st.text(f"趣味：{", ".join(hobby)}")
+        st.text(f"趣味：{', '.join(hobby)}")
         st.text(f"身長：{height}cm")
